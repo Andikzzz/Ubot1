@@ -1,0 +1,41 @@
+{
+  "name": "telegram-userbot",
+  "version": "1.0.0",
+  "description": "Simple Telegram Userbot (Broadcast & Forward All Groups/Channels) using GramJS",
+  "main": "userbot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node userbot.js"
+  },
+  "keywords": [
+    "telegram",
+    "userbot",
+    "gramjs",
+    "telethon-js",
+    "broadcast",
+    "forward"
+  ],
+  "author": "DikzForTy",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.11.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.0",
+    "css-select": "5.1.0",
+    "file-type": "^21.0.0",
+    "js-confuser": "^2.0.0",
+    "moment-timezone": "^0.5.34",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^2.6.7",
+    "node-os-utils": "^1.3.7",
+    "os": "^0.1.2",
+    "performance-now": "^2.1.0",
+    "qs": "^6.14.0",
+    "ssh2": "^1.17.0",
+    "util": "^0.12.5", 
+    "input": "^1.0.1",
+    "telegram": "latest", 
+    "fs": "0.0.1-security"        
+  }
+}
